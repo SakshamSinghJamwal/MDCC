@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Gallery |MDCC | MIET Dogri Cultural Club</title>
+        <link rel="stylesheet" href="./main.css">
+        <link rel="stylesheet" href="./responsive.css">
+
+        <!-- MISC -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" sizes="16x16" href="./src/favicons/16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./src/favicons/32x32.png">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Lato:wght@400;700;900&family=Nunito:wght@200;300;400&display=swap" rel="stylesheet">
+
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/f7187ce1e1.js" crossorigin="anonymous"></script>
+
+    </head>
+    <div class="gallerybg">
+    <body>
+        <div id="body-container">
+            <div class="top-full-block">
+                <!-- Navigation -->
+                <header>
+                    <img src="./src/miet.png">
+                    
+                    <input type="checkbox" id="checkbox_toggle" />
+                    <label for="checkbox_toggle" class="hamburger"><i class="fas fa-bars"></i></label>
+                    <div id="headerfiller"></div> <!--We will use it to fill the background when viewing in mobile-view mode -->
+
+                    <nav>
+                        <div class="nav-links">
+                            <a id="curr-page" href="./index.html">Home</a>
+                            <a href="./dogri_letter_web/index.html">Dogri Letters</a>
+                            <a href="./about/about.html">About Us</a>
+                            <a href="gallery.html">Gallery</a>
+                            <!-- <a href="./events/events.html">Events</a> -->
+                            <a href="./team/team.html">Team</a>
+                            <a href="./contact/contact.html">Contact Us</a>
+                        </div>
+                    </nav>
+                </header>
+                
+          
+            
+                        <!-- Event Section -->
+                        <div class="events">
+                            <!-- <p id="heading"><span>Snapshots</span></p> -->
+                            <center><hr></center>
+                            <div class="event-per-item animate-reveal">
+                                
+                                <div class="event-item animate-reveal">
+                                    <a href="https://www.instagram.com/ieee_mietjammu" target="_blank"><img src="src/events/1.jpeg"></a>
+                                </div>
+                                <div class="event-item animate-reveal">
+                                    <a href="https://www.instagram.com/ieee_mietjammu" target="_blank"><img src="src/events/2.webp"></a>
+                                </div>
+                                <!-- <div class="event-item animate-reveal">
+                                    <a href="https://www.instagram.com/ieee_mietjammu" target="_blank"><img src="src/events/3.webp"></a>
+                                </div>
+                                <div class="event-item animate-reveal">
+                                    <a href="https://www.instagram.com/ieee_mietjammu" target="_blank"><img src="src/events/4.webp"></a>
+                                </div>
+                                <div class="event-item animate-reveal">
+                                    <a href="https://www.instagram.com/ieee_mietjammu" target="_blank"><img src="src/events/5.webp"></a>
+                                </div>
+                                <div class="event-item animate-reveal">
+                                    <a href="https://www.instagram.com/ieee_mietjammu" target="_blank"><img src="src/events/6.webp"></a>
+                                </div>
+                                <div class="event-item animate-reveal">
+                                    <a href="https://www.instagram.com/ieee_mietjammu" target="_blank"><img src="src/events/7.webp"></a>
+                                </div>
+                                <div class="event-item animate-reveal">
+                                    <a href="https://www.instagram.com/ieee_mietjammu" target="_blank"><img src="src/events/8.webp"></a>
+                                </div>
+                                <div class="event-item animate-reveal">
+                                    <a href="https://www.instagram.com/ieee_mietjammu" target="_blank"><img src="src/events/9.webp"></a>
+                                </div>
+                                <div class="event-item animate-reveal">
+                                    <a href="https://www.instagram.com/ieee_mietjammu" target="_blank"><img src="src/events/10.webp"></a>
+                                </div> -->
+                                <p id="event-counter"></p>
+                                    <button id="event-button-left" onclick="nextEvent(-1)"><i class="fas fa-arrow-left"></i></button>
+                                    <button id="event-button-right" onclick="nextEvent(1)"><i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+        
+
+
+            <!-- Dashboard -->
+            <div class="dashboard">
+                <div id="dashboard-item">
+                    <!-- <H1 id="total"></H1>
+                    <p></p> -->
+                </div>
+                <hr width="20vw">
+                <div id="dashboard-item">
+                    <!-- <H1></H1>
+                    <p></p> -->
+                </div>
+            </div>
+        
+
+
+
+            <!-- Footer -->
+            <footer>
+                <div class="footer-container">
+                        <div class="footer-left">
+                            <img src="./src/miet-logo.png">
+                            
+                            <div id="socialmedia-icons">
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+
+
+                    <!-- Footer Navigation Links -->
+                    <div class="footer-right">
+                        <div class="footer-links">
+                            <p id="heading">Navigate</p>
+                            <ul>
+                                <a href="./about/about.html"><i class="fas fa-angle-right"></i> About Us</a>
+                                <a href="./gallery/gallery.html"><i class="fas fa-angle-right"></i> Gallery</a>
+                                <a href="./events/events.html"><i class="fas fa-angle-right"></i> Events</a>
+                                <a href="./team/team.html"><i class="fas fa-angle-right"></i> Team</a>
+                                <a href="./contact/contact.html"><i class="fas fa-angle-right"></i> Contact Us</a>
+
+                            </ul>
+                        </div>
+                    
+
+                        <div class="footer-links">
+                            <p id="heading">Contact Info</p>
+                            <span>MIET (Autonomous)</span>
+                            <span>Kot Balwal, </span>
+                            <span>Jammu, 181122</span>
+                            <span style="margin-top: 30px;"><i class="fas fa-phone"></i> +91 9419118844</span>
+                            <span><i class="fas fa-inbox"></i> mdcc@mietjammu.in</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer End -->
+                <div class="footer-end">
+                    <p>Made in the city of temples. @ MIET Jammu</p>
+                    <a id="tothetop" href="#top"><i class="fas fa-arrow-up"></i>&nbsp To the Top again!</a>
+                </div>
+            </footer>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+        <script src="./JS/events.js"></script>
+        <script src="./main.js"></script>
+    </body>
+    </div>
+</html>
