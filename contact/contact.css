@@ -1,0 +1,261 @@
+/* Global */
+.body-container {
+    overflow: hidden;
+}
+
+#heading {
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
+
+/* Moto of MIET */
+.heading-container {
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    animation: fade 2s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.heading-container #heading {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 130px;
+    height: 100%;
+    left: calc(2vw - 60px);
+    overflow: hidden;
+}
+
+.heading-container #heading p {
+    font-size: 1.6vw;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: #aaaaaa;
+    transform: rotate(-90deg);
+    width: 200px;
+    text-wrap: nowrap;
+    z-index: -1;
+    margin-right: 30px;
+}
+
+.heading-container #moto {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    gap: 4vw;
+}
+
+.heading-container #moto p {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 12vw;
+    color: #dfdfdf;
+    transition: 1s;
+}
+.heading-container #moto p:hover {
+    color: black;
+}
+
+
+
+
+
+/* Contact US */
+.contactus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding: 0 10vw;
+}
+.contactus #heading i {
+    color: lightcoral;
+}
+.contact-container {
+    color: #272727;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10vh;
+}
+.contact-container p {
+    padding: 5px 0;
+}
+
+.contact-container #heading2 {
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+/** Contact **/
+.contacts, .emails, .links {
+    display: block;
+    text-align: start;
+    margin: 0 0 10vh 0;
+}
+.contacts span {
+    color: #FF7722;
+}
+
+/* Contact */
+.contact-container .contacts i {
+    color: #FF7722;
+}
+.contact-container .contacts p {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Email */
+.contact-container .emails i{
+    color: cornflowerblue;
+}
+
+/* Links */
+.contact-container .links i {
+    color: hotpink;
+    margin-right: 5px;
+}
+
+
+
+/* Location */
+.location {
+    display: block;
+    text-align: center;
+    margin: 10vh 0;
+}
+.location p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.location #google-maps p {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.location #google-maps p span {
+    color: green;
+    font-weight: bold;
+}
+.location #heading i {
+    color: #e97837;
+}
+
+.location iframe {
+    margin: 0 0 30px 0;
+    border: solid 1px #b1b1b1;
+    border-radius: 10px;
+    width: 50vw; 
+    height: 50vh;
+    transition: all 0.5s ease-in-out;
+}
+.location iframe:hover {
+    border-color: black;
+    width: 60vw;
+    height: 60vh;
+}
+
+
+
+/* MIET Links */
+.miet-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    margin: 20vh 0;
+}
+
+
+
+
+
+.miet-links-bulk {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.miet-links-bulk a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    border: solid 2px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* MIET Website */
+.miet-links-bulk #mietweb {
+    color: #ee3639;
+    border-color: #ee3639;
+}
+.miet-links-bulk #mietweb:hover {
+    color: #ffffff;
+    background-color: #ee3639;
+}
+
+/* LinkedIn */
+.miet-links-bulk #linkedin {
+    color: #c2820a;
+    border-color: #c2820a;
+}
+.miet-links-bulk #linkedin:hover {
+    color: #ffffff;
+    background-color: #c2820a;
+}
+
+/* Facebook */
+.miet-links-bulk #facebook {
+    color: #c2820a;
+    border-color: #c2820a;
+}
+.miet-links-bulk #facebook:hover {
+    color: #ffffff;
+    background-color: #c2820a;
+}
+
+/* Youtube */
+.miet-links-bulk #youtube {
+    color: #ff0000;
+    border-color: #ff0000;
+}
+
+.miet-links-bulk #youtube:hover {
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+/* Instagram */
+.miet-links-bulk #instagram {
+    color: #c32aa3;
+    border-color: #c32aa3;
+}
+.miet-links-bulk #instagram:hover {
+    color: #ffffff;
+    background-color: #c32aa3;
+}
