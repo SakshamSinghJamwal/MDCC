@@ -1,0 +1,45 @@
+.gc-container {
+    position: relative;
+    margin: 10vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -1; /* Fix the interfarence with headerfiller */
+}
+.gc-container #loading {
+    position: absolute;
+    transform: translate(-50%);
+    top: 50%;
+    left: 50%;
+    z-index: -2;
+}
+.gc-container #heading {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 10vh;
+}
+
+.gc-container #heading span {
+    font-size: 30px;
+    color: #eeba66;
+}
+
+
+#google-calendar {
+    border: solid 0px;
+    width: 80vw;
+    height: 90vh;
+    /* style="border: 0" width="800" height="600" frameborder="0" scrolling="no" */
+}
+
+
+/** UpComing Events... **/
+.uc-event-section #heading {
+    margin: initial;
+}
+
+.uc-event-section .uc-event-bulk {
+    width: 80vw;
+}
