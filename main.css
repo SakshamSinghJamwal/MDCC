@@ -136,7 +136,7 @@ header .nav-links #curr-page {
     filter: brightness(90%);
 }
 
-/** IEEE x MIET **/
+/** mdcc x MIET **/
 .wall-top-container .heading {
     display: flex;
     flex-direction: row;
@@ -153,12 +153,12 @@ header .nav-links #curr-page {
     overflow: hidden;
 }
 
-.wall-top-container .heading #ieeelogo {
+.wall-top-container .heading #mdcclogo {
     height: 100%;
     animation: right-to-left 1.5s;
 }
 
-.wall-top-container .ieeelogo-left {
+.wall-top-container .mdcclogo-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -167,18 +167,18 @@ header .nav-links #curr-page {
     height: 100%;
 }
 
-.wall-top-container .ieeelogo-left #head {
+.wall-top-container .mdcclogo-left #head {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 95px;
 }
-.wall-top-container .ieeelogo-left #body {
+.wall-top-container .mdcclogo-left #body {
     position: relative;
     /* -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black; */
     display: inline;
     font-size: 25px;
-    /* width: calc(100% + 10px); Fix border under empty area of 'I' Character in IEEE */
+    /* width: calc(100% + 10px); Fix border under empty area of 'I' Character in mdcc */
     top: -15px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -186,7 +186,7 @@ header .nav-links #curr-page {
     border: solid 1px #FF7722;
     border-width: 2px 0 0 0 ;
 }
-.wall-top-container .ieeelogo-left #body span img {
+.wall-top-container .mdcclogo-left #body span img {
     width: 70px;
 }
 
@@ -329,20 +329,20 @@ header .nav-links #curr-page {
 }
 
 
-/** IEEE Tools **/
-.ieee-tools {
+/** MDCC Tools **/
+.mdcc-tools {
     margin: 20vh 50px;
     display: block;
     text-align: center;
 }
 
-.ieee-tools #heading {
+.mdcc-tools #heading {
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
     font-size: 30px;
 }
 
-.ieee-tools .ieee-tools-bulk {
+.mdcc-tools .mdcc-tools-bulk {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -351,12 +351,12 @@ header .nav-links #curr-page {
     justify-content: center;
     width: 100%;
 }
-.ieee-tools .ieee-tools-bulk a {
+.mdcc-tools .mdcc-tools-bulk a {
     text-decoration: none;
     cursor: pointer;
 }
 
-.ieee-tools .ieee-tool-item {
+.mdcc-tools .mdcc-tool-item {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -369,11 +369,11 @@ header .nav-links #curr-page {
     background-color: #f5f5f5;
     transition: all 0.2s ease-in-out;
 }
-.ieee-tools .ieee-tool-item:hover {
+.mdcc-tools .mdcc-tool-item:hover {
     box-shadow: 0px 0px 5px #d3d3d3;
 }
 
-.ieee-tools .ieee-tool-item #imagecontainer {
+.mdcc-tools .mdcc-tool-item #imagecontainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -381,11 +381,11 @@ header .nav-links #curr-page {
     height: 150px;
 }
 
-.ieee-tools #imagecontainer img {
+.mdcc-tools #imagecontainer img {
     width: 50%;
 }
 
-.ieee-tools .ieee-tool-item p {
+.mdcc-tools .mdcc-tool-item p {
     padding: 20px;
     letter-spacing: 0.05em;
     font-family: 'Nunito', sans-serif;
@@ -494,8 +494,8 @@ header .nav-links #curr-page {
 
 
 
-/** Join IEEE **/
-.join-ieee {
+/** Join mdcc **/
+.join-mdcc {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -507,24 +507,24 @@ header .nav-links #curr-page {
     height: 80vh;
 }
 
-.join-ieee .left {
+.join-mdcc .left {
     position: relative;
     padding: 20px;
 }
 
-.join-ieee .left #heading {
+.join-mdcc .left #heading {
     font-size: 30px;
     margin-left: 20px;
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
 }
-.join-ieee .left #heading span {
+.join-mdcc .left #heading span {
     padding: 2px 0;
     background-color: #fb985a;
     color: white;
 }
 
-.join-ieee .left .review {
+.join-mdcc .left .review {
     display: none;
     flex-direction: column;
     align-items: center;
@@ -537,25 +537,25 @@ header .nav-links #curr-page {
     transition: transform 1s, opacity 1s;
 }
 
-.join-ieee .left .review img {
+.join-mdcc .left .review img {
     width: 150px; /* Adjust as needed */
     border-radius: 125px;
     border: solid 10px #eeeeee;
 }
 
-.join-ieee .left .review #name {
+.join-mdcc .left .review #name {
     font-size: 20px;
     margin: 10px 0;
 }
 
-.join-ieee .left .review p {
+.join-mdcc .left .review p {
     padding: 5px;
     font-size: 16px;
     text-align: center;
     color: #282828;
 }
 
-.join-ieee .right {
+.join-mdcc .right {
     background-color: #ebebeb;
     display: flex;
     flex-direction: column;
@@ -566,15 +566,15 @@ header .nav-links #curr-page {
     width: 40%;
 }
 
-.join-ieee .right #heading {
+.join-mdcc .right #heading {
     font-size: 20px;
 }
 
-.join-ieee .right img {
+.join-mdcc .right img {
     width: 150px;
 }
 
-.join-ieee .right a {
+.join-mdcc .right a {
     background-color: #FF7722;
     border: solid 1px #FF7722;
     border-radius: 100px;
@@ -585,7 +585,7 @@ header .nav-links #curr-page {
     text-decoration: none;
     /* box-shadow: 3px 3px 10px #aaaaaa; */
 }
-.join-ieee .right a:hover {
+.join-mdcc .right a:hover {
     background-color: transparent;
     transition: 0.2s;
     color: #FF7722;
